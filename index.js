@@ -1,8 +1,8 @@
 superbowlWin(record)
 
 function superbowlWin(arr){
-    const superbowlWin = arr.find(el => el === 'W');{
-        return arr.year
-    }
+    const found = arr.find(el => el.result === 'W')
+      if (found){
+        return found.year
+      }
 }
-
